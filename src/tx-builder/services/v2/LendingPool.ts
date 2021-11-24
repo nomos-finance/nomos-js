@@ -208,6 +208,7 @@ export default class LendingPool
         ),
       from: user,
       value: getTxValue(reserve, convertedAmount),
+      gasSurplus: 14400000
     });
 
     txs.push({
